@@ -1,0 +1,98 @@
+html, body{
+    background-color: #344961;
+    text-align: center;
+    color: white;
+
+    font-family: "fira sans";
+}
+
+img{
+    align-items: center;
+    width: 70vh;
+}
+
+.textbody{
+    position: fixed;
+    left: 50%;
+
+    place-items: center;
+
+    transform: translateX(-50%);
+    bottom: 5vh;
+    text-align: center;
+
+    width: 80vh;
+    height: 30vh;
+
+    border: 5px solid #6d839d;
+    border-radius: 1dvb;
+
+    background-color: white;
+    color: #344961;
+
+    font-weight: 400;
+    font-size: 1.1dvh;
+
+    padding: 1%;
+}
+
+.text{
+    margin: 20%;
+    padding-top: 10%;
+}
+
+
+
+/*  Font */
+
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+/*  Buttons */
+
+.button-enter{
+    padding: 8px;
+    text-align: center;
+
+    cursor: pointer;
+    border: 5px solid #344961;
+    border-radius: 1dvb;
+
+    background-color: white;
+    color: #344961;
+}
+
+.button-real, .button-AI, .button-cooked, .button-fair, .button-end, .button-Next-1, .button-lockedin, .button-next-2, .button-free, .button-final, .button-next-3, .button-GameEnd {
+    
+    padding: 8px;
+    text-align: center;
+
+    cursor: pointer;
+    border: 5px solid #344961;
+    border-radius: 1dvb;
+
+    width: fit-content;
+
+    margin: 10px;
+
+    background-color: white;
+    color: #344961;
+    
+}
+
