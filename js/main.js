@@ -57,7 +57,7 @@ $(".button-free").on("click", function () {
 });
 
 $(".button-next-3").on("click", function () {
-    $("#SceneThreeEnd").hide();
+    $("#SceneThreeContinue").hide();
     $("#GameEnd").show();
 });
 
